@@ -12,6 +12,7 @@ for (int i = 0; i < n; i++){
     array[i] = i;
     scanf("%d", &array[i]);
 }
+
 int max = array[0];
 int min = array[0];
 for(int i = 0; i<n; i++){
@@ -26,6 +27,5 @@ for(int i = 0; i<n; i++){
 
 printf("%d\n", min);
 printf("%d\n", max);
-
   return 0;
 }
