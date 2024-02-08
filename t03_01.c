@@ -1,12 +1,13 @@
 // NIM - NAMA
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(int _argc, char **_argv){
-int n = 8;
-int array [n];
+int n;
+int array[100];
 
- scanf("%d", &array[n]);
+ scanf("%d", & n);
 
 for (int i = 0; i < n; i++){
     array[i] = i;
